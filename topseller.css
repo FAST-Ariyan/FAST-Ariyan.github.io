@@ -1,0 +1,176 @@
+body {
+background-image: url('./log-in-bg.jpg');            /*adds background image*/
+background-color: #f7fff0c9;                      /*color when there is no bg loading.*/
+background-position: center center;                 /*makes it so its always at the center.*/
+background-size: cover;                             /*covers the entire space */
+background-repeat: no-repeat;                       /*does not repeat to fill spaces*/
+background-attachment: fixed;                       /*is fixed and does not move*/
+font-family: Arial, Helvetica, sans-serif;         /*Gives all the body a nice font*/
+font-weight: normal;                                /*Font's thickness*/
+
+}
+
+/* Add a green background color to the navigation bar*/
+.topnav {
+  background-color: rgba(6, 218, 112, 0.884);
+  border: 1px solid rgb(5, 5, 5);
+  overflow: hidden;
+}
+/* Style the links inside the navigation bar */
+.topnav a 
+{
+  float: right;
+  border: 1px solid rgba(0, 187, 115, 0.034);
+  color: #ffffff;
+  text-align: center;
+  padding: 0.6% 3.6%;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover 
+{
+  background-color: #01b119be;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active 
+{
+  background-color: #01b119be;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  padding:0.5%;
+  background-color: rgb(0, 0, 0);
+  font-size: 17px;
+  color: #ffffff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
+footer a{
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+@media screen and (min-width: 744px){
+.title{
+  background-color: rgba(252, 252, 252, 0.658);
+  border: 1px solid rgb(255, 255, 255);
+  overflow: hidden;
+    font-family: 'Sofia';
+    font-size: 25px;
+    margin: 0;
+
+}
+}
+@media screen and (max-width: 744px){
+.title{
+    background-color: rgba(252, 252, 252, 0.658);
+  border: 1px solid rgb(255, 255, 255);
+  overflow: hidden;
+    font-family: 'Sofia';
+    font-size: 15px;
+    margin: 0;
+
+}  
+}
+.title h1{
+  width: 100%;
+  text-align: center;
+}
+.Food{
+    font-family: 'Sofia';
+    font-size: 25px;
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    -ms-transform: translate(-30%,);
+    transform: translate(-30%,);
+    text-align: center;
+}
+.Food h3{
+    color: rgb(255, 255, 255);
+    background: rgba(2, 2, 2, 0.856);
+    border: 1px solid rgba(196, 196, 196, 0.199);
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 15px;
+}
+
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 20px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+    border: 3px solid #ffffffdc;
+    background-color: rgba(252, 252, 252, 0.658);
+}
+
+/* Responsive columns for small screens
+@media screen and (max-width: 590px) {
+  .column {
+    width: 40%;
+    padding: 0 20px;
+    margin-bottom: 10px;
+  }
+  @media screen and (max-width: 300px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  }
+} */
+
+.cardimage{
+  width: 100%;
+  overflow: hidden;
+}

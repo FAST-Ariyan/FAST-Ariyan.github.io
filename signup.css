@@ -1,0 +1,66 @@
+body {
+background-image: url('/log-in-bg.jpg');      /*adds background image*/
+background-color: #f7fff0c9;                      /*color when there is no bg loading.*/
+background-position: center center;                 /*makes it so its always at the center.*/
+background-size: cover;                             /*covers the entire space */
+background-repeat: no-repeat;                       /*does not repeat to fill spaces*/
+background-attachment: fixed;                       /*is fixed and does not move*/
+font-family: "Source Sans Pro", sans-serif;         /*Gives all the body a nice font*/
+font-weight: normal;                                /*Font's thickness*/
+}
+
+form {
+    border: 3px solid #ffffffdc;
+    background-color: rgba(252, 252, 252, 0.658);
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20%;
+}
+.signinform{
+     margin-top: -15%;
+}
+.imgcontainer {
+    text-align: center;
+    border: 20%;
+}
+.logo{
+    width: 17%;
+    height: auto;
+}
+.gender{
+    width: 100%;
+    min-width: 20px;
+    min-height: 5px;
+    padding: 12px 18px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(212, 211, 211);
+    box-sizing: border-box;
+}
+input[type=text],
+input[type=password] {
+    width: 100%;
+    min-width: 20px;
+    min-height: 5px;
+    padding: 12px 18px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(212, 211, 211);
+    box-sizing: border-box;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 1px;
+    margin: 10px 0px;
+    border: 1px solid black;
+    cursor: pointer;
+    width: 100%;
+}
+.container {
+   padding: 20px;
+}
+button:hover {
+   opacity: 0.9;
+}
