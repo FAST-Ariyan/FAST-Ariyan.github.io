@@ -92,7 +92,6 @@ footer a{
 .title h1{
   width: 100%;
   text-align: center;
-\
 }
 .Food{
     font-family: 'Sofia';
@@ -228,5 +227,6 @@ footer a{
 
 .cardimage{
   width: 100%;
+  max-width: 100%;
   overflow: hidden;
 }
