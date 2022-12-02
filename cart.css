@@ -118,3 +118,8 @@ button:hover {
     border: 3px solid #ffffffdc;
     background-color: rgba(252, 252, 252, 0.658);
 }
+img{
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}

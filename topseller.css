@@ -154,23 +154,12 @@ footer a{
     background-color: rgba(252, 252, 252, 0.658);
 }
 
-/* Responsive columns for small screens
-@media screen and (max-width: 590px) {
-  .column {
-    width: 40%;
-    padding: 0 20px;
-    margin-bottom: 10px;
-  }
-  @media screen and (max-width: 300px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-  }
-} */
-
 .cardimage{
   width: 100%;
+  overflow: hidden;
+}
+img{
+  width: 100%;
+  max-width: 100%;
   overflow: hidden;
 }

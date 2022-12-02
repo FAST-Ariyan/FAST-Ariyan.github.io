@@ -56,3 +56,9 @@ button {
 button:hover {
    opacity: 0.9;
 }
+
+img{
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+  }
